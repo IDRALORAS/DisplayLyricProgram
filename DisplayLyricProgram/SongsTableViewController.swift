@@ -137,11 +137,14 @@ class SongsTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        let destinationController = segue.destination as! LyricViewController
-        destinationController.submittedSection = selectedSection
-        destinationController.submittedRow = selectedRow
-        destinationController.submittedSongList = songList
-    
+        if let destinationController = segue.destination as? LyricViewController{
+            destinationController.submittedSection = selectedSection
+            destinationController.submittedRow = selectedRow
+            destinationController.submittedSongList = songList
+        }
+        else {
+            
+        }
     }
 
 }

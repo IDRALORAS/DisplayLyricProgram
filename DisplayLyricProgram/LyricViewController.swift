@@ -10,6 +10,8 @@ import UIKit
 
 class LyricViewController: UIViewController {
     
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
+    var currentSong : LyricModel!
     var submittedSection : Int?
     var submittedRow : Int?
     var submittedSongList : [Array<LyricModel>]?
@@ -20,18 +22,21 @@ class LyricViewController: UIViewController {
     @IBOutlet weak var navTitle: UINavigationItem!
     
     func loadValues() {
-        let currentSong = submittedSongList![submittedSection!][submittedRow!]
+     currentSong = submittedSongList![submittedSection!][submittedRow!]
         songName.text = "\(currentSong.songName ?? "") - \(currentSong.songArtist ?? "")"
         navTitle.title = "\(currentSong.songName ?? "") - \(currentSong.songArtist ?? "")"
         songLyrics.text = currentSong.songLyrics
-        var image : UIImage?
         if let url = currentSong.songImageURL {
-            let urlContents = try? Data(contentsOf: url)
-            if let imageData = urlContents {
-                image = UIImage(data: imageData)
+        DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+                let urlContents = try? Data(contentsOf: url)
+                if let imageData = urlContents, url == self?.currentSong.songImageURL {
+                    DispatchQueue.main.async {
+                        self?.albumImage.image = UIImage(data: imageData)
+                        self?.spinner.stopAnimating()
+                    }
+                }
             }
         }
-        albumImage.image = image
     }
     
     override func viewDidLoad() {
@@ -39,6 +44,7 @@ class LyricViewController: UIViewController {
         loadValues()
         // Do any additional setup after loading the view.
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
