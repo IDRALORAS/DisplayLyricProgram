@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F21960A41F71673A009386F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21960A31F71673A009386F6 /* AppDelegate.swift */; };
-		F21960A61F71673A009386F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21960A51F71673A009386F6 /* ViewController.swift */; };
 		F21960A91F71673A009386F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21960A71F71673A009386F6 /* Main.storyboard */; };
 		F21960AB1F71673A009386F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21960AA1F71673A009386F6 /* Assets.xcassets */; };
 		F21960AE1F71673A009386F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21960AC1F71673A009386F6 /* LaunchScreen.storyboard */; };
 		F21960B91F71673A009386F6 /* DisplayLyricProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21960B81F71673A009386F6 /* DisplayLyricProgramTests.swift */; };
 		F21960C41F71673A009386F6 /* DisplayLyricProgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21960C31F71673A009386F6 /* DisplayLyricProgramUITests.swift */; };
+		F24E07B21F74B17F00CA9DC6 /* LyricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E07B11F74B17F00CA9DC6 /* LyricViewController.swift */; };
+		F2F88FC11F7231C8004BCED7 /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F88FC01F7231C8004BCED7 /* SongsTableViewController.swift */; };
+		F2F88FC31F7233C4004BCED7 /* LyricModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F88FC21F7233C4004BCED7 /* LyricModel.swift */; };
+		F2F88FC51F7255CB004BCED7 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F88FC41F7255CB004BCED7 /* SongTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		F21960A01F71673A009386F6 /* DisplayLyricProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayLyricProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21960A31F71673A009386F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F21960A51F71673A009386F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F21960A81F71673A009386F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F21960AA1F71673A009386F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F21960AD1F71673A009386F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		F21960BF1F71673A009386F6 /* DisplayLyricProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisplayLyricProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21960C31F71673A009386F6 /* DisplayLyricProgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayLyricProgramUITests.swift; sourceTree = "<group>"; };
 		F21960C51F71673A009386F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24E07B11F74B17F00CA9DC6 /* LyricViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricViewController.swift; sourceTree = "<group>"; };
+		F2F88FC01F7231C8004BCED7 /* SongsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
+		F2F88FC21F7233C4004BCED7 /* LyricModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricModel.swift; sourceTree = "<group>"; };
+		F2F88FC41F7255CB004BCED7 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		F21960A21F71673A009386F6 /* DisplayLyricProgram */ = {
 			isa = PBXGroup;
 			children = (
+				F24E07B11F74B17F00CA9DC6 /* LyricViewController.swift */,
 				F21960A31F71673A009386F6 /* AppDelegate.swift */,
-				F21960A51F71673A009386F6 /* ViewController.swift */,
+				F2F88FC01F7231C8004BCED7 /* SongsTableViewController.swift */,
+				F2F88FC21F7233C4004BCED7 /* LyricModel.swift */,
 				F21960A71F71673A009386F6 /* Main.storyboard */,
+				F2F88FC41F7255CB004BCED7 /* SongTableViewCell.swift */,
 				F21960AA1F71673A009386F6 /* Assets.xcassets */,
 				F21960AC1F71673A009386F6 /* LaunchScreen.storyboard */,
 				F21960AF1F71673A009386F6 /* Info.plist */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F21960A61F71673A009386F6 /* ViewController.swift in Sources */,
+				F2F88FC31F7233C4004BCED7 /* LyricModel.swift in Sources */,
+				F2F88FC51F7255CB004BCED7 /* SongTableViewCell.swift in Sources */,
+				F2F88FC11F7231C8004BCED7 /* SongsTableViewController.swift in Sources */,
 				F21960A41F71673A009386F6 /* AppDelegate.swift in Sources */,
+				F24E07B21F74B17F00CA9DC6 /* LyricViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +528,7 @@
 				F21960CA1F71673A009386F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F21960CB1F71673A009386F6 /* Build configuration list for PBXNativeTarget "DisplayLyricProgramTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				F21960CD1F71673A009386F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F21960CE1F71673A009386F6 /* Build configuration list for PBXNativeTarget "DisplayLyricProgramUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				F21960D01F71673A009386F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
