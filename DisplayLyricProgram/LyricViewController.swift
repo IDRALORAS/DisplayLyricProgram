@@ -23,13 +23,13 @@ class LyricViewController: UIViewController {
     
     func loadValues() {
      currentSong = submittedSongList![submittedSection!][submittedRow!]
-        songName.text = "\(currentSong.songName ?? "") - \(currentSong.songArtist ?? "")"
-        navTitle.title = "\(currentSong.songName ?? "") - \(currentSong.songArtist ?? "")"
-        songLyrics.text = currentSong.songLyrics
-        if let url = currentSong.songImageURL {
+        songName.text = "\(currentSong.name ?? "") - \(currentSong.artist ?? "")"
+        navTitle.title = "\(currentSong.name ?? "") - \(currentSong.artist ?? "")"
+        songLyrics.text = currentSong.lyrics
+        if let url = currentSong.imageURL {
         DispatchQueue.global(qos: .userInitiated).async { [weak self] in
                 let urlContents = try? Data(contentsOf: url)
-                if let imageData = urlContents, url == self?.currentSong.songImageURL {
+                if let imageData = urlContents, url == self?.currentSong.imageURL {
                     DispatchQueue.main.async {
                         self?.albumImage.image = UIImage(data: imageData)
                         self?.spinner.stopAnimating()
@@ -44,22 +44,4 @@ class LyricViewController: UIViewController {
         loadValues()
         // Do any additional setup after loading the view.
     }
-    
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

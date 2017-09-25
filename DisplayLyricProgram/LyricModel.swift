@@ -10,16 +10,17 @@ import Foundation
 
 struct LyricModel {
     
-    var songName : String?
-    var songArtist : String?
-    var songLyrics : String?
-    var songImageURL : URL?
+    var name : String?
+    var artist : String?
+    var lyrics : String?
+    var imageURL : URL?
     
-    init(name songN: String, artist songA: String, lyrics songL: String, url songI: URL?){
-        songName = songN
-        songArtist = songA
-        songLyrics = songL
-        songImageURL = songI
+    init(name: String, artist: String, lyrics: String, url: URL?){
+        self.name = name
+        self.artist = artist
+        self.lyrics = lyrics
+        self.imageURL = url
+        
     }
     
 }

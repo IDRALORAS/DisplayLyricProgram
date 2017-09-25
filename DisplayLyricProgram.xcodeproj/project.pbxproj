@@ -13,6 +13,7 @@
 		F21960AE1F71673A009386F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21960AC1F71673A009386F6 /* LaunchScreen.storyboard */; };
 		F21960B91F71673A009386F6 /* DisplayLyricProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21960B81F71673A009386F6 /* DisplayLyricProgramTests.swift */; };
 		F21960C41F71673A009386F6 /* DisplayLyricProgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21960C31F71673A009386F6 /* DisplayLyricProgramUITests.swift */; };
+		F23AE5751F78EB95002DFA91 /* myProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23AE5741F78EB94002DFA91 /* myProperties.plist */; };
 		F24E07B21F74B17F00CA9DC6 /* LyricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E07B11F74B17F00CA9DC6 /* LyricViewController.swift */; };
 		F27121B51F7521E2006DD232 /* AddScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27121B41F7521E2006DD232 /* AddScreenViewController.swift */; };
 		F2F88FC11F7231C8004BCED7 /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F88FC01F7231C8004BCED7 /* SongsTableViewController.swift */; };
@@ -50,6 +51,7 @@
 		F21960BF1F71673A009386F6 /* DisplayLyricProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisplayLyricProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21960C31F71673A009386F6 /* DisplayLyricProgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayLyricProgramUITests.swift; sourceTree = "<group>"; };
 		F21960C51F71673A009386F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23AE5741F78EB94002DFA91 /* myProperties.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = myProperties.plist; sourceTree = "<group>"; };
 		F24E07B11F74B17F00CA9DC6 /* LyricViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricViewController.swift; sourceTree = "<group>"; };
 		F27121B41F7521E2006DD232 /* AddScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScreenViewController.swift; sourceTree = "<group>"; };
 		F2F88FC01F7231C8004BCED7 /* SongsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				F24E07B11F74B17F00CA9DC6 /* LyricViewController.swift */,
 				F21960A31F71673A009386F6 /* AppDelegate.swift */,
 				F2F88FC01F7231C8004BCED7 /* SongsTableViewController.swift */,
+				F23AE5741F78EB94002DFA91 /* myProperties.plist */,
 				F2F88FC21F7233C4004BCED7 /* LyricModel.swift */,
 				F21960A71F71673A009386F6 /* Main.storyboard */,
 				F2F88FC41F7255CB004BCED7 /* SongTableViewCell.swift */,
@@ -250,6 +253,7 @@
 				F21960AE1F71673A009386F6 /* LaunchScreen.storyboard in Resources */,
 				F21960AB1F71673A009386F6 /* Assets.xcassets in Resources */,
 				F21960A91F71673A009386F6 /* Main.storyboard in Resources */,
+				F23AE5751F78EB95002DFA91 /* myProperties.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
