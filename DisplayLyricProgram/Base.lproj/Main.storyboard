@@ -28,15 +28,88 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TO BE CONTINUED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVN-h6-Q6m">
-                                <rect key="frame" x="16" y="293" width="343" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Song Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b4d-df-BIZ">
+                                <rect key="frame" x="16" y="101" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWL-8i-66n">
+                                <rect key="frame" x="16" y="72" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Artist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygd-71-t8Y">
+                                <rect key="frame" x="16" y="170" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Song Artist" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jka-nj-DHo">
+                                <rect key="frame" x="16" y="199" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album Cover URL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6p-0h-lAc">
+                                <rect key="frame" x="16" y="268" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Album Cover URL" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jpo-j6-hpN">
+                                <rect key="frame" x="16" y="297" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Lyrics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2y-Dx-oqp">
+                                <rect key="frame" x="16" y="366" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xvP-GF-23m">
+                                <rect key="frame" x="16" y="395" width="343" height="272"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="B2y-Dx-oqp" firstAttribute="top" secondItem="jpo-j6-hpN" secondAttribute="bottom" constant="39" id="1U1-L9-OVi"/>
+                            <constraint firstItem="xvP-GF-23m" firstAttribute="leading" secondItem="WnG-6B-v51" secondAttribute="leadingMargin" id="1hk-Id-AUo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ygd-71-t8Y" secondAttribute="trailing" id="2N6-YA-LHs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="e6p-0h-lAc" secondAttribute="trailing" id="35J-gH-nRW"/>
+                            <constraint firstItem="jpo-j6-hpN" firstAttribute="trailing" secondItem="WnG-6B-v51" secondAttribute="trailingMargin" id="8tz-3P-8IV"/>
+                            <constraint firstItem="jpo-j6-hpN" firstAttribute="leading" secondItem="WnG-6B-v51" secondAttribute="leadingMargin" id="AyN-aA-2nJ"/>
+                            <constraint firstItem="B2y-Dx-oqp" firstAttribute="leading" secondItem="WnG-6B-v51" secondAttribute="leadingMargin" id="DSw-kb-G1J"/>
+                            <constraint firstItem="xvP-GF-23m" firstAttribute="top" secondItem="B2y-Dx-oqp" secondAttribute="bottom" constant="8" id="Den-dd-FMd"/>
+                            <constraint firstItem="b4d-df-BIZ" firstAttribute="leading" secondItem="WnG-6B-v51" secondAttribute="leadingMargin" id="FEs-k2-lzM"/>
+                            <constraint firstItem="b4d-df-BIZ" firstAttribute="top" secondItem="gWL-8i-66n" secondAttribute="bottom" constant="8" id="G38-3j-Ofi"/>
+                            <constraint firstItem="b4d-df-BIZ" firstAttribute="top" secondItem="gWL-8i-66n" secondAttribute="bottom" constant="8" id="H3P-Ag-AIZ"/>
+                            <constraint firstItem="ygd-71-t8Y" firstAttribute="leading" secondItem="WnG-6B-v51" secondAttribute="leadingMargin" id="LCz-FD-ZTi"/>
+                            <constraint firstItem="gWL-8i-66n" firstAttribute="top" secondItem="CbX-Bm-GH6" secondAttribute="bottom" constant="8" id="Lx3-MG-Fk9"/>
+                            <constraint firstItem="jpo-j6-hpN" firstAttribute="top" secondItem="e6p-0h-lAc" secondAttribute="bottom" constant="8" id="QHT-fK-r9n"/>
+                            <constraint firstItem="jka-nj-DHo" firstAttribute="trailing" secondItem="WnG-6B-v51" secondAttribute="trailingMargin" id="Snq-7r-SKr"/>
+                            <constraint firstItem="e6p-0h-lAc" firstAttribute="top" secondItem="jka-nj-DHo" secondAttribute="bottom" constant="39" id="Vuj-x5-dGV"/>
+                            <constraint firstItem="gWL-8i-66n" firstAttribute="leading" secondItem="WnG-6B-v51" secondAttribute="leadingMargin" id="YMe-la-yko"/>
+                            <constraint firstItem="ygd-71-t8Y" firstAttribute="top" secondItem="b4d-df-BIZ" secondAttribute="bottom" constant="39" id="Zlr-dz-VxI"/>
+                            <constraint firstItem="xvP-GF-23m" firstAttribute="trailing" secondItem="WnG-6B-v51" secondAttribute="trailingMargin" id="fTD-gh-mb5"/>
+                            <constraint firstItem="jka-nj-DHo" firstAttribute="top" secondItem="ygd-71-t8Y" secondAttribute="bottom" constant="8" id="fc4-63-H0D"/>
+                            <constraint firstItem="b4d-df-BIZ" firstAttribute="trailing" secondItem="WnG-6B-v51" secondAttribute="trailingMargin" id="gOj-cy-HRp"/>
+                            <constraint firstItem="jpo-j6-hpN" firstAttribute="top" secondItem="e6p-0h-lAc" secondAttribute="bottom" constant="8" id="m0g-GL-jvt"/>
+                            <constraint firstItem="jka-nj-DHo" firstAttribute="leading" secondItem="WnG-6B-v51" secondAttribute="leadingMargin" id="mAD-ov-8iM"/>
+                            <constraint firstItem="jka-nj-DHo" firstAttribute="top" secondItem="ygd-71-t8Y" secondAttribute="bottom" constant="8" id="nXF-By-sGF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gWL-8i-66n" secondAttribute="trailing" id="oxK-pQ-qnE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="B2y-Dx-oqp" secondAttribute="trailing" id="tdR-ak-3Eo"/>
+                            <constraint firstItem="FRy-jY-HHp" firstAttribute="top" secondItem="xvP-GF-23m" secondAttribute="bottom" id="u3K-DC-dzj"/>
+                            <constraint firstItem="xvP-GF-23m" firstAttribute="top" secondItem="B2y-Dx-oqp" secondAttribute="bottom" constant="8" id="wvT-RJ-FK0"/>
+                            <constraint firstItem="e6p-0h-lAc" firstAttribute="leading" secondItem="WnG-6B-v51" secondAttribute="leadingMargin" id="x0M-hw-TF3"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="UPD-zG-5jK">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="K7I-zq-8IA">
@@ -44,8 +117,18 @@
                                 <action selector="cancelAction:" destination="RF2-xW-EP4" id="Pq8-AD-M7d"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="G47-b7-6TC"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="G47-b7-6TC">
+                            <connections>
+                                <action selector="saveAction:" destination="RF2-xW-EP4" id="h2A-rM-Gdq"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="albumURL" destination="jpo-j6-hpN" id="kov-pE-8qi"/>
+                        <outlet property="lyrics" destination="xvP-GF-23m" id="nj7-ts-E3P"/>
+                        <outlet property="songArtist" destination="jka-nj-DHo" id="Hh5-sL-2h0"/>
+                        <outlet property="songName" destination="b4d-df-BIZ" id="KUX-2e-Nb7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b1y-go-0Vd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

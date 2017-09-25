@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.441768"
+            timestampString = "528002878.752442"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.441859"
+            timestampString = "528002878.75345"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
@@ -135,11 +135,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.441915"
+            timestampString = "528002878.754135"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "SongsTableViewController"
             landmarkType = "3">
             <Locations>
@@ -228,11 +228,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.441967"
+            timestampString = "528002878.754739"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -244,11 +244,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.442041"
+            timestampString = "528002878.755307"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "loadSampleSongs()"
             landmarkType = "7">
          </BreakpointContent>
@@ -260,11 +260,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.44209"
+            timestampString = "528002878.755847"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "loadSampleSongs()"
             landmarkType = "7">
          </BreakpointContent>
@@ -276,11 +276,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.44214"
+            timestampString = "528002878.756473"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -292,11 +292,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.44224"
+            timestampString = "528002878.757348"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "numberOfSections(in:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -308,11 +308,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.442329"
+            timestampString = "528002878.758431"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -324,11 +324,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.442391"
+            timestampString = "528002878.76013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -350,11 +350,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.442443"
+            timestampString = "528002878.761164"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -366,11 +366,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.442492"
+            timestampString = "528002878.762092"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -382,11 +382,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.44254"
+            timestampString = "528002878.763065"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
             <Locations>
@@ -430,11 +430,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.442588"
+            timestampString = "528002878.764056"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -462,11 +462,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.442664"
+            timestampString = "528002878.76506"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -478,11 +478,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.442715"
+            timestampString = "528002878.766123"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -494,7 +494,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/LyricViewController.swift"
-            timestampString = "527770193.442779"
+            timestampString = "528002878.767565"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
@@ -510,7 +510,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/LyricViewController.swift"
-            timestampString = "527770193.442828"
+            timestampString = "528002878.76766"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -573,11 +573,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.442877"
+            timestampString = "528002878.767717"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -589,12 +589,124 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DisplayLyricProgram/SongsTableViewController.swift"
-            timestampString = "527770193.442937"
+            timestampString = "528002878.768476"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
             landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DisplayLyricProgram/SongsTableViewController.swift"
+            timestampString = "528002878.769226"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DisplayLyricProgram/SongsTableViewController.swift"
+            timestampString = "528002878.769999"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DisplayLyricProgram/SongsTableViewController.swift"
+            timestampString = "528002878.770843"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DisplayLyricProgram/AddScreenViewController.swift"
+            timestampString = "528002878.771686"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "saveAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DisplayLyricProgram/AddScreenViewController.swift"
+            timestampString = "528002878.771763"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "saveAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DisplayLyricProgram/AddScreenViewController.swift"
+            timestampString = "528002878.771829"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "addLyricModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DisplayLyricProgram/AddScreenViewController.swift"
+            timestampString = "528002878.77189"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "addLyricModel()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

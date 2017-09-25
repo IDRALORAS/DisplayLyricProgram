@@ -10,12 +10,12 @@ import UIKit
 
 class LyricViewController: UIViewController {
     
-    @IBOutlet weak var spinner: UIActivityIndicatorView!
     var currentSong : LyricModel!
     var submittedSection : Int?
     var submittedRow : Int?
     var submittedSongList : [Array<LyricModel>]?
 
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
     @IBOutlet weak var albumImage: UIImageView!
     @IBOutlet weak var songName: UILabel!
     @IBOutlet weak var songLyrics: UILabel!
