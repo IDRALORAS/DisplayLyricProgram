@@ -16,6 +16,7 @@
 		F23AE5751F78EB95002DFA91 /* myProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23AE5741F78EB94002DFA91 /* myProperties.plist */; };
 		F24E07B21F74B17F00CA9DC6 /* LyricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E07B11F74B17F00CA9DC6 /* LyricViewController.swift */; };
 		F27121B51F7521E2006DD232 /* AddScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27121B41F7521E2006DD232 /* AddScreenViewController.swift */; };
+		F2ACB59D1F7B984C005EE359 /* PrimarySplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ACB59C1F7B984C005EE359 /* PrimarySplitViewController.swift */; };
 		F2F88FC11F7231C8004BCED7 /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F88FC01F7231C8004BCED7 /* SongsTableViewController.swift */; };
 		F2F88FC31F7233C4004BCED7 /* LyricModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F88FC21F7233C4004BCED7 /* LyricModel.swift */; };
 		F2F88FC51F7255CB004BCED7 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F88FC41F7255CB004BCED7 /* SongTableViewCell.swift */; };
@@ -54,6 +55,7 @@
 		F23AE5741F78EB94002DFA91 /* myProperties.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = myProperties.plist; sourceTree = "<group>"; };
 		F24E07B11F74B17F00CA9DC6 /* LyricViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricViewController.swift; sourceTree = "<group>"; };
 		F27121B41F7521E2006DD232 /* AddScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScreenViewController.swift; sourceTree = "<group>"; };
+		F2ACB59C1F7B984C005EE359 /* PrimarySplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimarySplitViewController.swift; sourceTree = "<group>"; };
 		F2F88FC01F7231C8004BCED7 /* SongsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
 		F2F88FC21F7233C4004BCED7 /* LyricModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricModel.swift; sourceTree = "<group>"; };
 		F2F88FC41F7255CB004BCED7 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		F21960A21F71673A009386F6 /* DisplayLyricProgram */ = {
 			isa = PBXGroup;
 			children = (
+				F2ACB59C1F7B984C005EE359 /* PrimarySplitViewController.swift */,
 				F27121B41F7521E2006DD232 /* AddScreenViewController.swift */,
 				F24E07B11F74B17F00CA9DC6 /* LyricViewController.swift */,
 				F21960A31F71673A009386F6 /* AppDelegate.swift */,
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2F88FC31F7233C4004BCED7 /* LyricModel.swift in Sources */,
+				F2ACB59D1F7B984C005EE359 /* PrimarySplitViewController.swift in Sources */,
 				F2F88FC51F7255CB004BCED7 /* SongTableViewCell.swift in Sources */,
 				F27121B51F7521E2006DD232 /* AddScreenViewController.swift in Sources */,
 				F2F88FC11F7231C8004BCED7 /* SongsTableViewController.swift in Sources */,

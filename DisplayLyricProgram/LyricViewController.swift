@@ -22,7 +22,14 @@ class LyricViewController: UIViewController {
     @IBOutlet weak var navTitle: UINavigationItem!
     
     func loadValues() {
-     currentSong = submittedSongList![submittedSection!][submittedRow!]
+        if submittedSection == nil {
+            spinner.stopAnimating()
+            albumImage.image = nil
+            songName.text = ""
+            songLyrics.text = ""
+            return
+        }
+     currentSong = submittedSongList?[submittedSection!][submittedRow!]
         songName.text = "\(currentSong.name ?? "") - \(currentSong.artist ?? "")"
         navTitle.title = "\(currentSong.name ?? "") - \(currentSong.artist ?? "")"
         songLyrics.text = currentSong.lyrics
